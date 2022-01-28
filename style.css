@@ -271,8 +271,11 @@ p:hover {
         justify-content: space-between;
         margin-top: 201px;
     }
-    .container .content-image img {
-        width: 400px;
+    .content-image {
+        z-index: -100;
+    }
+    .container .content-image >img {
+        width: 360px;
         object-fit: cover;
         margin-left: -0px;
     }
